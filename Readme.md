@@ -22,7 +22,7 @@ Also, the following VSCode Extensions are required to be preinstalled:
  - Extension Pack for Apache Camel by Red Hat
  - AtlasMap Data Transformation editor by Red Hat
 
-You can find them from VSCode extensions search bar:
+Using the filter 'Red Hat' you can find them from VSCode extensions search bar:
 
 ![dsds](images/marketplace.png)
 
@@ -133,7 +133,7 @@ Now follow the steps below to complete the mapping definition
    | :---                      | :---         |
    | Address/ Number + Street  | addressLine1 |
    | Address/ City + PostCode  | addressLine2 | 
-   | Address/ Country          | country      | 
+   | Address/ Country          | addressLine3 | 
     
     The complete mapping definition should look similar to: \
     ![](images/map-simple-complete.png)
