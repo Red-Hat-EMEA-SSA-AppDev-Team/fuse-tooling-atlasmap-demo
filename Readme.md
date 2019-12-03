@@ -41,7 +41,7 @@ Enter the requested Maven coordinates, for example:
 
     Define value for property 'groupId': : org.demo
     Define value for property 'artifactId': : datamap    
-    Define value for property 'version': 1.0.0
+    Define value for property 'version': : 1.0.0
 
 </br>
 
@@ -125,6 +125,12 @@ Now follow the steps below to complete the mapping definition
    This action combines both source fields into the same target field with the 'space' separator.
 
 2. Continue completing the rest of the mapping definition combining:
+
+  | Source                | Target       |
+  | :---                  | :---         |
+  | Number & Street       | addressLine1 |
+  | City & PostCode       | addressLine2 | 
+  | Country               | country      | 
 
     - Number & Street -> addressLine1
     - City & PostCode -> addressLine2
