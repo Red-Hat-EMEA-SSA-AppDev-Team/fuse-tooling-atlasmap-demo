@@ -184,12 +184,12 @@ The data mapping work is done, let's complete the project with the following ste
     
 
 
-   </br>
+   
 
    >>>
    **Please note** how the Red Hat VSCode extensions can help you building your code using auto-completion as you type your Camel XML DSL: \
    ![](images/camel-autocomplete.png)
-   >>>
+   
 
     </br>
 
