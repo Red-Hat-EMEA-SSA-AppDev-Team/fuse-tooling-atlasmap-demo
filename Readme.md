@@ -182,7 +182,7 @@ The data mapping work is done, let's complete the project with the following ste
     3. then triggers the data mapping
     4. and finally prints out the result
     
-    \
+    
 
     </br>
 
