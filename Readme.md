@@ -12,7 +12,10 @@ For simplicity the tutorial will focus attention on the data mappings and mock t
 
 ## Prerequisites
 
-The tutorial uses VSCode, and requires to have preinstalled the following VSCode Extensions:
+The tutorial uses VSCode which you can download from: \
+[https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+
+Also, the following VSCode Extensions are required to be preinstalled:
 
  - XML Language Support by Red Hat
  - Language Support for Apache Camel by Red Hat
