@@ -181,6 +181,7 @@ The data mapping work is done, let's complete the project with the following ste
     2. then loads a file resource (simulating the obtention of an XML payload)
     3. then triggers the data mapping
     4. and finally prints out the result
+    
     \
 
     </br>
