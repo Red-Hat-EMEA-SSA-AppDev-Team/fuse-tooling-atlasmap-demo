@@ -124,13 +124,13 @@ Now follow the steps below to complete the mapping definition
 
    This action combines both source fields into the same target field with the 'space' separator.
 
-2. Continue completing the rest of the mapping definition combining:
+2. Continue completing the rest of the mapping definition following the table below:
 
-   | Source                | Target       |
-   | :---                  | :---         |
-   | Number + Street       | addressLine1 |
-   | City + PostCode       | addressLine2 | 
-   | Country               | country      | 
+   | Source                    | Target       |
+   | :---                      | :---         |
+   | Address/ Number + Street  | addressLine1 |
+   | Address/ City + PostCode  | addressLine2 | 
+   | Address/ Country          | country      | 
     
     The complete mapping definition should look similar to: \
     ![](images/map-simple-complete.png)
@@ -417,15 +417,23 @@ Now follow the steps below to complete the mapping definition
 
 1. Map from left to right all the matching fields as follows:
 
-    - Subscription/expiryDate -> Package/expiry \
-    Subscription/id -> Package/uid \
-    Subscription/service -> Package/name
-    - Offer/discount -> Renewal/discount \
-    Offer/duration -> Renewal/length \
-    Offer/type -> (not mapped)
-    - Customer/ Name & Surname -> customer \
-    Customer/contact -> email
 
+   | Subscription | Package |
+   | :---         | :---    |
+   | expiryDate   | expiry  |
+   | id           | uid     | 
+   | service      | name    | 
+
+   | Offer    | Renewal      |
+   | :---     | :---         |
+   | discount | discount     |
+   | duration | length       | 
+   | type     | (not mapped) | 
+
+   | Customer       | SubscriberDetails |
+   | :---           | :---              |
+   | Name + Surname | customer          |
+   | contact        | email             | 
 
     The resulting Mapping should look like: \
     ![](images/map-composed-complete.png)
