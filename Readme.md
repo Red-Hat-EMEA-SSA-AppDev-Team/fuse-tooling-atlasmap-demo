@@ -211,7 +211,7 @@ The above command should launch the application and execute the Camel route once
 
 ## Create a composed Data Transformation
 
-On this second example, we simulate obtaining different data payloads from multiple endpoints aiming to aggregate it all in a single data structure. This is a very typical integration scenario and sweet spot of Camel and Fuse.
+On this second example, we simulate obtaining different data payloads from multiple endpoints aiming to aggregate it all in a single data structure. This is a very typical integration scenario where *Camel* and *Fuse* find their sweet spot.
 
 ![](images/use-case-composed.png)
 
@@ -221,7 +221,7 @@ On this second example, we simulate obtaining different data payloads from multi
 
 This time we start defining the Camel routes to have a full view of the end to end process.
 
-Include the following definitions to your *CamelContext*:
+Include one by one the following definitions in your *CamelContext*:
 
 This would be the main route that matches well the illustration above:
 ```xml
@@ -277,7 +277,7 @@ The final `direct` *Camel* route to execute the mapping would be implemented as 
 
 Note the line referencing the `helper` bean which will help us creating the *Java Map* object required by AtlasMap to pass multiple source inputs.
 
-Define the `helper` bean in the Spring XML file as:
+Define the `helper` bean (outside the *CamelContext*) in the Spring XML file as:
 
 ```xml
 <bean id="helper" class="org.demo.Helper"/>
@@ -311,7 +311,7 @@ Save the class under:
 
 The Camel routes are attempting to load the payloads from the project resources. Let's ensure they are available.
 
-Create the 'Individual' JSON resource under:
+Create the 'Customer' JSON resource under:
 
     src/main/resources/data/customer.json
 
@@ -481,3 +481,7 @@ The above command should launch the application and execute the main Camel route
   }
 }
 ```
+
+</br>
+
+Et voilà !
