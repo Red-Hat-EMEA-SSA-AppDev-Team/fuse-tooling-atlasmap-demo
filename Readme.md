@@ -126,15 +126,11 @@ Now follow the steps below to complete the mapping definition
 
 2. Continue completing the rest of the mapping definition combining:
 
-  | Source                | Target       |
-  | :---                  | :---         |
-  | Number & Street       | addressLine1 |
-  | City & PostCode       | addressLine2 | 
-  | Country               | country      | 
-
-    - Number & Street -> addressLine1
-    - City & PostCode -> addressLine2
-    - Country -> country
+   | Source                | Target       |
+   | :---                  | :---         |
+   | Number + Street       | addressLine1 |
+   | City + PostCode       | addressLine2 | 
+   | Country               | country      | 
     
     The complete mapping definition should look similar to: \
     ![](images/map-simple-complete.png)
