@@ -180,22 +180,19 @@ The data mapping work is done, let's complete the project with the following ste
    1. triggers a process only once (repeatCount=1)
    2. then loads a file resource (simulating the obtention of an XML payload)
    3. then triggers the data mapping
-   4. and finally prints out the result
-     \
-   
+   4. and finally prints out the result  
+
    
    </br>
    
    **Please note** how the Red Hat VSCode extensions can help you building your code using auto-completion as you type your Camel XML DSL: \
    ![](images/camel-autocomplete.png)
    
-   >>>
-   **Tip:** auto-completion might be prefixing all instructions with the namespace `camel:`. To make auto-completion to use plain keywords (from, to, log, ...) simply remove the namespace from the Spring XML declaration, delete the entry: \
-   ```xml
-   xmlns:camel="http://camel.apache.org/schema/spring"
-   ```
-   >>>
+   > **Tip:** auto-completion might be prefixing all instructions with the namespace `camel:`. To make auto-completion to use plain keywords (from, to, log, ...) simply remove the namespace from the Spring XML declaration, delete the entry: \
+   `xmlns:camel="http://camel.apache.org/schema/spring"`
    
+   
+
    </br>
 
 ## Run the simple Data Transformation
