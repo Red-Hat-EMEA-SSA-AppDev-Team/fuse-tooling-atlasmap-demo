@@ -187,6 +187,8 @@ The data mapping work is done, let's complete the project with the following ste
    **Please note** how the Red Hat VSCode extensions can help you building your code using auto-completion as you type your Camel XML DSL: \
    ![](images/camel-autocomplete.png)
    
+   > **Tip:** auto-completion might be prefixing all instructions with the namespace `camel:`. To make auto-completion to use plain keywords (from, to, log, ...) simply remove the `camel` namespace from the Spring XML declaration, delete the entry: \
+      xmlns:camel="http://camel.apache.org/schema/spring"
 
    </br>
 
