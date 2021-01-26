@@ -122,10 +122,10 @@ Now follow the steps below to complete the mapping definition
    ![](images/newui/map-simple-name1.png)
 
 
-1. Now, press the key <kbd>Ctrl</kbd> (on Mac <kbd>&#8984;</kbd>) and click on the field *'Surname'* on the left, resulting in: \
+1. Now, click on the link symbol of the field *'Surname'* on the left to connect it to the destination field: \
    ![](images/newui/map-simple-name2-link.png)
 
-   This action combines both source fields into the same target field with the 'space' separator. The result should look like: \
+   This action combines both source fields into the same target field with the 'space' separator (default). The result should look like: \
    ![](images/newui/map-simple-name2.png)
 
 2. Continue completing the rest of the mapping definition following the table below:
